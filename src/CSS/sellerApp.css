@@ -245,10 +245,13 @@ input:checked + label + .tabContent,
 /* MANAGE STOCK PAGE CSS */
 
 .update {
+    display: inline-block;
+    width: 100%;
     cursor: pointer;
     background: white;
     color: #f93232;
     border-color: #f93232;
+    padding: 10px;
 } 
 
 .update:hover {

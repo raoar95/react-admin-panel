@@ -1,6 +1,7 @@
 import { React, useRef, useState }from "react";
 import { Link } from "react-router-dom";
 import {MyInput, Select, Textarea, Checkbox, Radio} from  "../../Components/seller/formComp";
+import Footer from "../../Components/seller/footer";
 import Dashboard from "./dashboard";
 import AddProduct from "./add-product"
 import ManageProduct from "./manage-product"
@@ -254,14 +255,7 @@ const AdminPanel =  (props) => {
 
           {/* footer Sec */}
 
-          <footer className="footer">
-              <div className="footerLeftSec">
-                 <p>© 2023 | Localscart | All Right Reserved</p>
-              </div>
-              <div className="footerRightSec">
-                 <p>About Us | Terms of Services | Privacy Policy</p>
-              </div>
-          </footer>
+          <Footer />
 
       </>
     )
